@@ -37,6 +37,12 @@ sys_kill(void)
 }
 
 int
+sys_getday(void)
+{
+  return 14; 
+}
+
+int
 sys_getpid(void)
 {
   return myproc()->pid;
